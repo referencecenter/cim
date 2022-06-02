@@ -1,5 +1,5 @@
 #! python3
-# cimClipboard.py
+# cim_clipboard.py
 
 """
 This program finds possible references to AAMC's Careers in Medicine
