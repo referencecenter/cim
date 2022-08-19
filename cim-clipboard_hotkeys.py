@@ -78,11 +78,11 @@ sample_text = ("AAMC has a program called called Careers in " +
 text = str(pyperclip.paste())
 
 # Check the text for each of the regular expressions.
-more_likelies_1 = more_likely_re_1.findall(sample_text) # Change back to text after testing
-more_likelies_2 = more_likely_re_2.findall(sample_text)
-possibles = possible_re.findall(sample_text)
-unlikelies_1 = unlikely_re_1.findall(sample_text)
-unlikelies_2 = unlikely_re_2.findall(sample_text)
+more_likelies_1 = more_likely_re_1.findall(text)
+more_likelies_2 = more_likely_re_2.findall(text)
+possibles = possible_re.findall(text)
+unlikelies_1 = unlikely_re_1.findall(text)
+unlikelies_2 = unlikely_re_2.findall(text)
 
 # Merge the regular expression match lists where there were multiple
     # regular expressions for the same type of match.
