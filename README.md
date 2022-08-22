@@ -2,7 +2,7 @@
 
 ## Summary
 
-This repository helps find potential references to the AAMC Careers in Medicine® program.
+This repository helps find potential references to the AAMC Careers in Medicine® program (CiM).
 
 ## Background
 
