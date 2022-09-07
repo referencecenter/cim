@@ -12,7 +12,7 @@ The [Association of American Medical Colleges](https://www.aamc.org 'Tomorrow\'s
 
 You do not need to know Python to use these programs. However, your computer must meet the following requirements:
 
-* Have Python installed. (AAMC staff can do this through the Software Center. Others can do so from [Python's downloads page](https://www.python.org/downloads/ 'Download Python | Python.org').
+* Have Python installed. (AAMC staff can do this through the Software Center. Others can do so from [Python's downloads page](https://www.python.org/downloads/ 'Download Python | Python.org').)
 * Have the following third-party Python modules installed. (For tips on installing third-party modules, see \"[Installing Python Modules](https://docs.python.org/3/installing/index.html 'Installing Python Modules — Python 3.10.6 documentation').\")
     * pandas
     * pyperclip
