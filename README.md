@@ -44,4 +44,4 @@ You do not need to know Python to use these programs. However, your computer mus
 
 ## Limitations
 
-These programs do not search text copied from PDFs very effectively. For PDFs, you may need to use your browser\'s or your application\'s Find function by pressing Ctrl + F or by right-clicking and selecting \"Find.," then searching for \"careers in medicine,\" "\cim\" and \"medcareers.\"
+These programs do not search text copied from PDFs very effectively. For PDFs, you may need to use your browser\'s or your application\'s Find function by pressing Ctrl + F or by right-clicking and selecting \"Find," then searching for \"careers in medicine,\" "\cim\" and \"medcareers.\"
