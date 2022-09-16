@@ -2,7 +2,7 @@
 
 ## Summary
 
-This repository helps find potential references to the AAMC Careers in Medicine® program (CiM).
+The tools in this repository help filter through search results to identify those more likely to contain references to the AAMC Careers in Medicine® program (CiM). They could be adapted for other projects where case-sensitive searching is useful.
 
 ## Background
 
@@ -13,12 +13,24 @@ The [Association of American Medical Colleges](https://www.aamc.org 'Tomorrow\'s
 You do not need to know Python to use these programs. However, your computer must meet the following requirements:
 
 * Have Python installed. (AAMC staff can do this through the Software Center. Others can do so from [Python's downloads page](https://www.python.org/downloads/ 'Download Python | Python.org').)
-* Have the following third-party Python modules installed. (For tips on installing third-party modules, see \"[Installing Python Modules](https://docs.python.org/3/installing/index.html 'Installing Python Modules — Python 3.10.6 documentation').\")
-    * pandas
-    * pyperclip
-    * tabulate
+* Have the necessary third-party Python modules installed. (For tips on installing third-party modules, see \"[Installing Python Modules](https://docs.python.org/3/installing/index.html 'Installing Python Modules — Python 3.10.6 documentation').\") The needed modules vary by program:
+    * _cim-scraper.py_:
+        * beautifulsoup4
+        * pandas
+        * requests
+    * _cim-clipboard.py_ and _cim-clipboard_one-doc.py_:
+        * pandas
+        * pyperclip
+        * tabulate
 
 ## Programs
+
+### cim-scraper.py
+
+If you are searching many webpages and can list the URLs in a CSV document, consider [__cim-scraper.py__](https://github.com/referencecenter/cim/blob/main/cim-scraper.py 'cim/cim-scraper.py at main • referencecenter/cim'), which attempts to scrape each page to determine which are more likely to include references to CiM. To use it, follow the steps below if you are on a Windows desktop. The steps may need to be adapted for other devices.
+
+1. Make necessary changes to the script (see instructions at the beginning of the script).
+2. Run the program.
 
 ### cim-clipboard.py
 
