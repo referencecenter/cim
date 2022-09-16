@@ -2,11 +2,7 @@
 
 ## Summary
 
-The tools in this repository help filter through search results to identify those more likely to contain references to the AAMC Careers in Medicine® program (CiM). 
-
-## Other Uses
-
-These programs could be adapted for other projects where case-sensitive searching is useful by changing the regular expressions. For guidance on using regular expressions in Python, I recommend [\"Pattern Matching with Regular Expressions\"](https://automatetheboringstuff.com/2e/chapter7/ 'Automate the Boring Stuff with Python') from Al Sweigart's [_Automate the Boring Stuff with Python_](https://automatetheboringstuff.com/ 'Automate the Boring Stuff with Python').
+The tools in this repository help filter through search results to identify those more likely to contain references to the AAMC Careers in Medicine® program (CiM).
 
 ## Background
 
@@ -61,3 +57,7 @@ If you are searching many webpages and can list the URLs in a CSV document, cons
 ## Limitations
 
 These programs do not search text copied from PDFs very effectively. For PDFs, you may need to use your browser\'s or your application\'s Find function by pressing Ctrl + F or by right-clicking and selecting \"Find," then searching for \"careers in medicine,\" "\cim\" and \"medcareers.\"
+
+## Other Uses
+
+These programs could be adapted for other projects where case-sensitive searching is useful by changing the regular expressions. For guidance on using regular expressions in Python, I recommend [\"Pattern Matching with Regular Expressions\"](https://automatetheboringstuff.com/2e/chapter7/ 'Automate the Boring Stuff with Python') from Al Sweigart's [_Automate the Boring Stuff with Python_](https://automatetheboringstuff.com/ 'Automate the Boring Stuff with Python').
