@@ -2,7 +2,11 @@
 
 ## Summary
 
-The tools in this repository help filter through search results to identify those more likely to contain references to the AAMC Careers in Medicine® program (CiM). They could be adapted for other projects where case-sensitive searching is useful.
+The tools in this repository help filter through search results to identify those more likely to contain references to the AAMC Careers in Medicine® program (CiM). 
+
+## Other Uses
+
+These programs could be adapted for other projects where case-sensitive searching is useful by changing the regular expressions. For guidance on using regular expressions in Python, I recommend [\"Pattern Matching with Regular Expressions\"](https://automatetheboringstuff.com/2e/chapter7/ 'Automate the Boring Stuff with Python') from Al Sweigart's [_Automate the Boring Stuff with Python_](https://automatetheboringstuff.com/ 'Automate the Boring Stuff with Python').
 
 ## Background
 
