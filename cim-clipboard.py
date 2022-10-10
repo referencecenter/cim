@@ -8,7 +8,6 @@ This program finds possible references to AAMC's Careers in Medicine
 # Import libraries.
 import pandas as pd
 import pyperclip
-# import random
 import re
 from tabulate import tabulate
 
