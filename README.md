@@ -51,7 +51,7 @@ If you are searching many webpages and can list the URLs in a CSV document, cons
 
 1. Highlight the entire document by pressing Ctrl + A or by right-clicking and selecting \"Select All.\"
 2. Copy the entire document by pressing Ctrl + C or by right-clicking and selecting \"Copy.\"
-3. Start cim-clipboard\_hotkeys.py. It will search the text you copied, tell you what the matches were, and group them into more likely true positives, possible true positives, and probable false positives. Review the output, and if you like, locate it in the document with your browser\'s or your application\'s Find function by pressing Ctrl + F or by right-clicking and selecting \"Find.\"
+3. Start cim-clipboard\_one-doc.py. It will search the text you copied, tell you what the matches were, and group them into more likely true positives, possible true positives, and probable false positives. Review the output, and if you like, locate it in the document with your browser\'s or your application\'s Find function by pressing Ctrl + F or by right-clicking and selecting \"Find.\"
 4. Press \"Enter\" to close the program.
 
 ## Limitations
